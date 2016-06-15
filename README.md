@@ -1,90 +1,12 @@
 # Coursera-Getting-and-Cleaning-Data
-<h1>Code Book</h1>
+<h1>Readme</h1>
 
-<h2>Identifiers</h2>
-
-subject - The ID of the test subject, from 1-30<br />
-activity - Activity done during measurement interval<br />
-
-<h2>Measurements</h2>
-<ul>
-<li>tbodyacmeanx</li>
-<li>tbodyacmeany</li>
-<li>tbodyacmeanz</li>
-<li>tbodyacstdx</li>
-<li>tbodyacstdy</li>
-<li>tbodyacstdz</li>
-<li>tgravityacmeanx</li>
-<li>tgravityacmeany</li>
-<li>tgravityacmeanz</li>
-<li>tgravityacstdx</li>
-<li>tgravityacstdy</li>
-<li>tgravityacstdz</li>
-<li>tbodyaccjermeanx</li>
-<li>tbodyaccjermeany</li>
-<li>tbodyaccjermeanz</li>
-<li>tbodyaccjerstdx</li>
-<li>tbodyaccjerstdy</li>
-<li>tbodyaccjerstdz</li>
-<li>tbodygyrmeanx</li>
-<li>tbodygyrmeany</li>
-<li>tbodygyrmeanz</li>
-<li>tbodygyrstdx</li>
-<li>tbodygyrstdy</li>
-<li>tbodygyrstdz</li>
-<li>tbodygyrojermeanx</li>
-<li>tbodygyrojermeany</li>
-<li>tbodygyrojermeanz</li>
-<li>tbodygyrojerstdx</li>
-<li>tbodygyrojerstdy</li>
-<li>tbodygyrojerstdz</li>
-<li>tbodyaccmamean</li>
-<li>tbodyaccmastd</li>
-<li>tgravityaccmamean</li>
-<li>tgravityaccmastd</li>
-<li>tbodyaccjerkmamean</li>
-<li>tbodyaccjerkmastd</li>
-<li>tbodygyromamean</li>
-<li>tbodygyromastd</li>
-<li>tbodygyrojerkmamean</li>
-<li>tbodygyrojerkmastd</li>
-<li>fbodyacmeanx</li>
-<li>fbodyacmeany</li>
-<li>fbodyacmeanz</li>
-<li>fbodyacstdx</li>
-<li>fbodyacstdy</li>
-<li>fbodyacstdz</li>
-<li>fbodyacmeanfreqx</li>
-<li>fbodyacmeanfreqy</li>
-<li>fbodyacmeanfreqz</li>
-<li>fbodyaccjermeanx</li>
-<li>fbodyaccjermeany</li>
-<li>fbodyaccjermeanz</li>
-<li>fbodyaccjerstdx</li>
-<li>fbodyaccjerstdy</li>
-<li>fbodyaccjerstdz</li>
-<li>fbodyaccjermeanfreqx</li>
-<li>fbodyaccjermeanfreqy</li>
-<li>fbodyaccjermeanfreqz</li>
-<li>fbodygyrmeanx</li>
-<li>fbodygyrmeany</li>
-<li>fbodygyrmeanz</li>
-<li>fbodygyrstdx</li>
-<li>fbodygyrstdy</li>
-<li>fbodygyrstdz</li>
-<li>fbodygyrmeanfreqx</li>
-<li>fbodygyrmeanfreqy</li>
-<li>fbodygyrmeanfreqz</li>
-<li>fbodyaccmamean</li>
-<li>fbodyaccmastd</li>
-<li>fbodyaccmameanfreq</li>
-<li>fbodybodyaccjerkmamean</li>
-<li>fbodybodyaccjerkmastd</li>
-<li>fbodybodyaccjerkmameanfreq</li>
-<li>fbodybodygyromamean</li>
-<li>fbodybodygyromastd</li>
-<li>fbodybodygyromameanfreq</li>
-<li>fbodybodygyrojerkmamean</li>
-<li>fbodybodygyrojerkmastd</li>
-<li>fbodybodygyrojerkmameanfreq</li>
-</ul>
+This is the final exam of the "Getting and Cleaning Data" course on coursera.org. Data come from an experiment using accelerometers in Samsung Galaxy II mobile phones, original data from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip <br />
+The included R-script does: <br />
+<ol>
+<li>Download the data</li>
+<li>Load them into R</li>
+<li>Select all variables showing mean and standard deviation</li>
+<li>Modify variable names</li>
+<li>Average measurements over subject and activity</li>
+<li>Save the resulting file as "finalset.csv"</li>
